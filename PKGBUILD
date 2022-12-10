@@ -19,7 +19,7 @@ license=("GPL")
 url="http://www.flightgear.org/"
 options=('makeflags')
 source=("http://downloads.sourceforge.net/project/flightgear/release-${_pkgver}/${pkgname}-${pkgver}.tar.bz2")
-sha256sums=('661abfaf475abc8cfd1bab57559469efa662bc6d03f58e8d977385003fe5aa8c')
+sha256sums=('6670dedeaca2683aca77f9f06bf9d1d8062ae32a2a5459dddc8aa0989c5f1854')
 
 prepare() {
   cd "$srcdir"/flightgear-$pkgver
