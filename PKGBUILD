@@ -19,7 +19,6 @@ optdepends=('webkit2gtk: embedded browser features'
 provides=(telegram-desktop)
 conflicts=(telegram-desktop)
 source=("https://github.com/TDesktop-x64/tdesktop/releases/download/v${pkgver}/${_pkgname}-${pkgver}-full.tar.gz"
-        "block-sponsored_messages.patch"
         "3c2e772aa7f4846ca4cabac6852d0aafdd35d7fd.patch")
 sha512sums=('f1cb2efa722aa1724f533e33d7443062d1eb1480c3ca193630d9891cf23ed2cd6fab0f09c15e36085bd871e5c4f3c4af0dbcddea770cb3562f48c4acc6d83361'
             'c662524ca4f4a8df021ee94696d84896ed9a271df321933942806dda4544ea25f51a650ec8b4fc72f9a2219ea54cbfaf37b9604124f7263c86f74f1d647587ae'
@@ -27,7 +26,6 @@ sha512sums=('f1cb2efa722aa1724f533e33d7443062d1eb1480c3ca193630d9891cf23ed2cd6fa
 prepare() {
     cd $_pkgname-$pkgver-full
     rm -rf Telegram/ThirdParty/libtgvoip/webrtc_dsp/absl
-    patch -Np1 --binary -i ../block-sponsored_messages.patch
     patch -Np1 --binary -i ../3c2e772aa7f4846ca4cabac6852d0aafdd35d7fd.patch
 }
 
