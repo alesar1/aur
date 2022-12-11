@@ -7,6 +7,7 @@ pkgdesc='A blazing fast gui autoclicker for linux'
 arch=('x86_64' 'aarch64')
 url='https://github.com/robiot/xclicker'
 license=('GPL-3.0')
+depends=('gtk3')
 makedepends=('meson' 'libx11' 'libxi' 'libxtst' 'pkgconf')
 sha512sums=('SKIP')
 source=("${url}/archive/refs/tags/v${pkgver}.tar.gz")
