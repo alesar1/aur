@@ -1,7 +1,7 @@
 # Maintainer: Jelle van der Waa <jelle@archlinux.org>
 
 pkgname=python-pynest2d
-pkgver=4.12.0
+pkgver=5.2.0
 pkgrel=1
 pkgdesc="Python bindings for libnest2d"
 arch=(x86_64)
@@ -10,7 +10,7 @@ license=("LGPL")
 depends=(python polyclipping nlopt)
 makedepends=(sip4 cmake boost libnest2d)
 source=(${pkgname}-${pkgver}.tar.gz::https://github.com/Ultimaker/pynest2d/archive/${pkgver}.tar.gz)
-sha512sums=('67451e3817aa308827683153c9f1fae670d95d393fad3b9b10831f7e255469df3be73fa2f90101c6dbf4034c06b51c4b3d9a4aa242f36325bb943003b0ce1842')
+sha512sums=('161d71ff0b075ca176e7ae6b9e87e0370248833e440a6e2efb16220e06e57e6e32e3311c58c304bc8bb13558c599539ee105114e8b5a881df57b56d177ad20d0')
 
 prepare() {
   cd pynest2d-${pkgver}
