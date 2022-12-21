@@ -15,7 +15,7 @@ checkdepends=('python-pytest' 'python-pytest-mock')
 provides=(python-ffmpeg)
 conflicts=(python-ffmpeg)
 source=(
-  "git+https://github.com/kkroening/ffmpeg-python.git"
+  "${pkgname}::git+https://github.com/kkroening/ffmpeg-python.git"
   test_pipe.patch
 )
 sha256sums=('SKIP'
