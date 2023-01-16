@@ -55,7 +55,7 @@ build() {
 
   # Build and clean up OpenFOAM
   bash -c "source ${foamDotFile}
-  ./Allwmake || exit 1
+  ./Allwmake -j || exit 1
   wclean all || exit 1
   wmakeLnIncludeAll || exit 1"
 }
