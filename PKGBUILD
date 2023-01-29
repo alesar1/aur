@@ -28,7 +28,7 @@ build() {
     -DCMAKE_BUILD_TYPE=Release \
     -DENABLE_TESTS=off \
     ../simgear-${pkgver}
-  make
+  make -j$(nproc)
 }
 
 package() {
