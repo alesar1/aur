@@ -1,4 +1,5 @@
-# Maintainer: Frederic Bezies < fredbezies at gmail dot com >
+# Maintainer: acxz <akashpatel2008 at yahoo dot com>
+# Contributor: Frederic Bezies < fredbezies at gmail dot com >
 # Contributor: Deon Spengler <deon at spengler dot co dot za>
 # Contributor: Sergej Pupykin <pupykin.s+arch@gmail.com>
 # Contributor: William Rea <sillywilly@gmail.com>
