@@ -1,4 +1,5 @@
-# Maintainer: Ashley Whetter <(firstname) @ awhetter.co.uk>
+# Maintainer: acxz <akashpatel2008 at yahoo dot com>
+# Contributor: Ashley Whetter <(firstname) @ awhetter.co.uk>
 # Contributor: Deon Spengler <deon at spengler dot co dot za>
 # Contributor: Sergej Pupykin <pupykin.s+arch@gmail.com>
 # Contributor: William Rea <sillywilly@gmail.com>
