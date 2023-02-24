@@ -1,4 +1,5 @@
-# Maintainer: Andrew Whatson <whatson@gmail.com>
+# Maintainer: acxz <akashpatel2008 at yahoo dot com>
+# Contributor: Andrew Whatson <whatson@gmail.com>
 # Contributor: Jake <aur@ja-ke.tech>
 # Contributor: Sergej Pupykin <pupykin.s+arch@gmail.com>
 # Contributor: William Rea <sillywilly@gmail.com>
