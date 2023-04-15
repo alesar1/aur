@@ -92,5 +92,5 @@ package_mangohud-common() {
   cd "$srcdir/MangoHud"
   install -Dm644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgbase/"
 }
-source[1]=MangoHud.tar
-source[2]=minhook.tar
+source[0]=MangoHud.tar
+source[1]=minhook.tar
