@@ -13,7 +13,7 @@ source=("git+https://github.com/aarnt/alpm_octopi_utils.git#commit=1e735c3a27803
 sha256sums=('SKIP')
 
 build() {
-	cd "$pkgname"
+	cd "$pkgname-1622743725.1e735c3"
 	make
 }
 
