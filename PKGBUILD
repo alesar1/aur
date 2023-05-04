@@ -122,3 +122,9 @@ package() {
 	sed -i -e '/^Icon=/cIcon=cemu' -e '/^Exec=Cemu/cExec=cemu' dist/linux/info.cemu.Cemu.desktop
 	install -Dm644 dist/linux/info.cemu.Cemu.desktop -T "$pkgdir/usr/share/applications/cemu.desktop"
 }
+source[1]=Cemu.tar
+source[2]=cubeb.tar
+source[3]=imgui.tar
+source[4]=ZArchive.tar
+source[5]=sanitizers-cmake.tar
+source[6]=googletest.tar
