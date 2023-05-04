@@ -9,20 +9,14 @@ url=https://cemu.info
 license=(MPL2)
 options+=(!strip)
 depends=(
-	# unbundled vcpkg
 	'boost-libs>=1.79' 'fmt>=9.1' 'libzip>=1.9.2' 'libpng>=1.6.37' 'pugixml>=1.12.1' 'sdl2>=2.0.22' 'wxwidgets-gtk3>=3.2' 'wayland'
 	'llvm-libs>=12'
 )
 makedepends=(
-	# build setup
 	git 'cmake>=3.21.1' 'clang>=12' 'llvm>=12' ninja
-	# unbundled vcpkg
 	'boost>=1.79' 'glslang>=11.8' 'glm>=0.9.9.8' rapidjson
-	# direct cemu dependencies
 	nasm 'vulkan-headers>=1.3.240'
-	# wxwidgets
 	glu
-	# cubeb optional
 	libpulse
 )
 optdepends=(
