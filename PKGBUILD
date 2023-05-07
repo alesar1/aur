@@ -18,7 +18,6 @@ depends=(
   'hicolor-icon-theme'
   'icoextract'
   'imagemagick'
-  'lib32-gnutls'
   'libadwaita'
   'libhandy'
   'libportal-gtk4'
