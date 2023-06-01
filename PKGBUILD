@@ -5,8 +5,6 @@
 # Contributor: Allan McRae <allan@archlinux.org>
 # Contributor: Jason Chu <jason@archlinux.org>
 
-shopt -s extglob
-
 pkgname=python310
 pkgver=3.10.11
 pkgrel=1
