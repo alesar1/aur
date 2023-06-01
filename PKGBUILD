@@ -1,4 +1,4 @@
-# Maintainer: soh @ AUR
+# Maintainer: soh
 # Contributor: Angel Velasquez <angvp@archlinux.org>
 # Contributor: Felix Yan <felixonmars@archlinux.org>
 # Contributor: Stéphane Gaudreault <stephane@archlinux.org>
