@@ -136,4 +136,4 @@ package_python-vosk() {
     rm "${pkgdir}/usr/lib/python${_pyver}/site-packages/vosk/libvosk.so"
     ln -s ../../../libvosk.so "${pkgdir}/usr/lib/python${_pyver}/site-packages/vosk/libvosk.so"
 }
-source[7]=openfst.tar
+source[6]=openfst.tar
