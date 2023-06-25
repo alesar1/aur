@@ -18,15 +18,13 @@ depends=('python-setuptools'
          'python-bottle'
          'python-click'
          'python-colorama'
-         'python-pyserial>=3.4' #https://github.com/platformio/platformio-core/commit/a37eb9868f3b20e982d0c3cd1a742fcb8ab60efc
+         'python-pyserial>=3.4'
          'python-requests'
          'python-semantic-version'
          'python-tabulate'
          'python-pyelftools'
          'python-marshmallow'
-         # Python 3
          'python-zeroconf'
-         # "pio home" requirements:
          'python-aiofiles'
          'python-ajsonrpc'
          'python-starlette'
