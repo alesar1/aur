@@ -7,7 +7,7 @@
 # Contributor: abenson
 # Contributor: Jakub Klinkovský <j.l.k cat gmx dog com>
 _base=METIS
-pkgname=${_base,,}
+pkgname=metis
 pkgver=5.2.1
 pkgrel=2
 arch=(x86_64)
