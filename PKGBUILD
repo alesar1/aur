@@ -1,6 +1,6 @@
 # Maintainer: Carlos Aznarán <caznaranl@uni.pe>
 _base=GKlib
-pkgname=${_base,,}
+pkgname=gklib
 pkgver=5.1.1
 pkgrel=3
 pkgdesc="A library of various helper routines and frameworks used by many of the lab's software"
