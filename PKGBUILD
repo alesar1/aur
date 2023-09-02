@@ -52,3 +52,5 @@ package() {
   make prefix="$pkgdir/usr" install
 }
 
+source[2]=vdr-wirbelscan-2023.06.04.tar
+source[3]=vdr-plugin-satip-wirbel.tar
