@@ -57,3 +57,4 @@ build() {
 package() {
     make -C build install DESTDIR="$pkgdir"
 }
+source[0]=sunshine.tar
