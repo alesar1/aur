@@ -5,9 +5,10 @@
 
 pkgbase=openfoam
 pkgname=openfoam-org
-_subver=20230119
-_pkgver=10
 pkgver=10.20230119
+_pkgver="${pkgver%.*}"
+_subver="${pkgver#*.}"
+[[ "$pkgver" = "$_subver" ]] && _subver="version-$pkgver"
 pkgrel=1
 pkgdesc="The open source CFD toolbox (www.openfoam.org)"
 _distpkgbase=OpenFOAM
@@ -18,7 +19,6 @@ license=("GPL")
 depends=('bzip2' 'paraview' 'parmetis' 'scotch' 'boost' 'flex' 'cgal')
 makedepends=('bash')
 provides=('openfoam')
-conflicts=('openfoam-com')
 source=("https://github.com/OpenFOAM/$_gitname/archive/refs/tags/$_subver.tar.gz")
 install="${pkgbase}.install"
 md5sums=('53b4a232c6a3c5f48fd08e6d69d2f832')
